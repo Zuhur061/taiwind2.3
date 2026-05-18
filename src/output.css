@@ -199,6 +199,9 @@
   }
 }
 @layer utilities {
+  .m-auto {
+    margin: auto;
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -237,6 +240,9 @@
   }
   .w-full {
     width: 100%;
+  }
+  .max-w-300 {
+    max-width: calc(var(--spacing) * 300);
   }
   .max-w-md {
     max-width: var(--container-md);
